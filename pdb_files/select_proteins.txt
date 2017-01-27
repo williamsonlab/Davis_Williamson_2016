@@ -1,0 +1,23 @@
+unset ignore_case
+select uS2, SSU_prot_output & chain B
+select uS3, SSU_prot_output & chain C
+select uS4, SSU_prot_output & chain D
+select uS5, SSU_prot_output & chain E
+select bS6, SSU_prot_output & chain F
+select uS7, SSU_prot_output & chain G
+select uS8, SSU_prot_output & chain H
+select uS9, SSU_prot_output & chain I
+select uS10, SSU_prot_output & chain J
+select uS11, SSU_prot_output & chain K
+select uS12, SSU_prot_output & chain L
+select uS13, SSU_prot_output & chain M
+select uS14, SSU_prot_output & chain N
+select uS15, SSU_prot_output & chain O
+select bS16, SSU_prot_output & chain P
+select uS17, SSU_prot_output & chain Q
+select bS18, SSU_prot_output & chain R
+select uS19, SSU_prot_output & chain S
+select bS20, SSU_prot_output & chain T
+select bS21, SSU_prot_output & chain U
+
+select allProts, SSU_prot_output & (chain B | chain C | chain D | chain E | chain F | chain G | chain H | chain I | chain J | chain K | chain L | chain M | chain N | chain O | chain P | chain Q | chain R | chain S | chain T | chain U)
